@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500acd7-d732-4c88-9c6b-4ad5222ecb7c" name="Changes" comment="Added requirements file with packages that need to be installed">
+    <list default="true" id="6500acd7-d732-4c88-9c6b-4ad5222ecb7c" name="Changes" comment="Added rough outline of issue resolution">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742092785893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added rough outline of issue resolution">
+      <option name="closed" value="true" />
+      <created>1742092862593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742092862593</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +134,7 @@
     <MESSAGE value="Proof of Concept" />
     <MESSAGE value="Proof of Concept, 2" />
     <MESSAGE value="Added requirements file with packages that need to be installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requirements file with packages that need to be installed" />
+    <MESSAGE value="Added rough outline of issue resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rough outline of issue resolution" />
   </component>
 </project>
