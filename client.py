@@ -5,7 +5,7 @@ def client():
     bd_addr = "XX:XX:XX:XX:XX:XX"  # Server Bluetooth Address
     port = 30
 
-    with open("data.json", "r") as f:
+    with open("test.json", "r") as f:
         json_data = json.load(f)
 
     json_str = json.dumps(json_data) + "<EOF>"
