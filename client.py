@@ -2,7 +2,7 @@ import bluetooth
 import json
 
 def client():
-    bd_addr = "B8:27:EB:D0:60:19" #Kyle's phone bluetooth is 6C:AC:C2:F8:61:85
+    bd_addr = "XX:XX:XX:XX:XX:XX" 
     port = 30
 
     with open("test.json", "r") as f: #replace test.json with your json file
