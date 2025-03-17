@@ -11,32 +11,36 @@ def server():
     client_sock, address = server_sock.accept()
     print("Accepted connection from", address)
 
-    data = b"" #intialize empty bytes object
+    data = b""
 
     while True:
         try:
-            chunk = client_sock.recv(1024) #read in chunks of 1024 bytes
-            if not chunk: #if no data is received, break loop
+            chunk = client_sock.recv(1024)
+            if not chunk:
                 break
-            data += chunk #append bytes received
+            data += chunk
 
-            if b"<EOF>" in data: #stop when end of file marker is found
-                data = data.replace(b"<EOF>", b"") #remove the end of file marker
+            if b"<EOF>" in data:
+                data = data.replace(b"<EOF>", b"")
                 break
         except bluetooth.BluetoothError as e:
             print(f"Bluetooth error: {e}")
             break
 
-    json_str = data.decode("utf-8") #decode bytes received
+    json_str = data.decode("utf-8")
     try:
-        json_data = json.loads(json_str) #parse json
+        json_data = json.loads(json_str)
         print("Received JSON:", json_data)
+
+        response_msg = json.dumps({"status": "Received successfully"})
+        client_sock.send(response_msg.encode("utf-8"))
+
     except json.JSONDecodeError:
         print("Error decoding JSON")
+        client_sock.send(json.dumps({"status": "Error decoding JSON"}).encode("utf-8"))
 
     client_sock.close()
     server_sock.close()
 
 if __name__ == "__main__":
     server()
-

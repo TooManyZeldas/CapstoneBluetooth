@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500acd7-d732-4c88-9c6b-4ad5222ecb7c" name="Changes" comment="Added rough outline of issue resolution">
+    <list default="true" id="6500acd7-d732-4c88-9c6b-4ad5222ecb7c" name="Changes" comment="Added test.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -122,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742092993402</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added JSON functionality">
+      <option name="closed" value="true" />
+      <created>1742248167150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742248167150</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added test.json">
+      <option name="closed" value="true" />
+      <created>1742248974705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742248974705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +170,8 @@
     <MESSAGE value="Proof of Concept, 2" />
     <MESSAGE value="Added requirements file with packages that need to be installed" />
     <MESSAGE value="Added rough outline of issue resolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rough outline of issue resolution" />
+    <MESSAGE value="Added JSON functionality" />
+    <MESSAGE value="Added test.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test.json" />
   </component>
 </project>
